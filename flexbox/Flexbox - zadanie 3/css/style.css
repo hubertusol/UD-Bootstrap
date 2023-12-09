@@ -38,3 +38,15 @@ section {
 .four {
     background-color: tomato;
 }
+.first {
+    flex-direction: column;
+}
+.first .three,.first .four {
+    flex-grow: 1;
+}
+.second {
+    justify-content: space-around;
+}
+.second .square {
+    align-content: center;
+}
