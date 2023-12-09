@@ -46,7 +46,30 @@ section {
 }
 .second {
     justify-content: space-around;
+    align-items: center;
 }
 .second .square {
-    align-content: center;
+height: 100px;
+}
+.third {
+    flex-direction: row-reverse;
+}
+.third .three {
+    order: 3;
+}
+.third .one{
+    flex-grow: 1;
+}
+.third .four {
+    flex-grow:3;
+}
+.fourth {
+    flex-direction: row-reverse;
+    align-items: end;
+}
+.fourth .square{
+    height: 200px;
+}
+.fourth .two, .fourth .three {
+    align-self: flex-start;
 }
